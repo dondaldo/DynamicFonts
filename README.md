@@ -17,10 +17,11 @@ Add the following to the root gradle file.
 
 ### Step 3
  
- 	String fonturl = "font url";
+ 	String fonturl = "FONT_URL";
         FontConfig.with(this).loadFont(fonturl, new Callback<Typeface>() {
             @Override
             public void send(Typeface typeface) {
                 mTypeface = typeface;
+		...
             }
         });
