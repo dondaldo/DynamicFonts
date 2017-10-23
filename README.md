@@ -13,7 +13,7 @@ Add the following to the root gradle file.
 
 ### Step 2
 #### Add  Library as a gradle dependency
-    compile 'com.github.dondaldo.DynamicFonts:dynamicfonts:0.0.3'
+        compile 'com.github.dondaldo:DynamicFonts:0.0.4'
 
 ### Step 3
  
