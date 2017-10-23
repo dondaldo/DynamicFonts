@@ -16,7 +16,7 @@ Add the following to the root gradle file.
     compile 'com.github.dondaldo.DynamicFonts:dynamicfonts:0.0.3'
 
 ### Step 3
-
+ 
  fonturl = "font url";
         FontConfig.with(this).loadFont(fonturl, new Callback<Typeface>() {
             @Override
