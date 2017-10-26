@@ -1,14 +1,14 @@
 package com.srikanth.dynamicfonts;
 
+import android.app.Activity;
 import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import com.srikanth.dynamicfont.Callback;
 import com.srikanth.dynamicfont.FontConfig;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private TextView sampleText;
     private String fonturl;
